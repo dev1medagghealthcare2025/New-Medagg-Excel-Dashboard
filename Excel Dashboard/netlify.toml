@@ -1,0 +1,14 @@
+[build]
+  command = "pip install -r requirements.txt && mkdir -p out && cp templates/index.html out/index.html && [ -d static ] && cp -r static out/static || echo 'No static folder or static folder is empty'"
+  publish = "out"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

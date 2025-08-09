@@ -1,0 +1,513 @@
+2025-08-09 16:58:09,550 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 16:58:10,288 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 16:58:10,294 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 16:58:13,383 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/pr7cphpjfn8ouh3009i1g2gkg4/1754738885000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 16:58:15,771 WARNING werkzeug MainThread :  * Debugger is active!
+2025-08-09 16:58:15,773 INFO werkzeug MainThread :  * Debugger PIN: 557-173-487
+2025-08-09 17:00:01,642 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Administrator\\Desktop\\Excel Dashboard\\app.py', reloading
+2025-08-09 17:00:03,362 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:00:03,852 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:00:03,864 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:00:06,840 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/63f066a7lcqk2ql1rkvjkm5o7s/1754739000000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:00:09,665 WARNING werkzeug MainThread :  * Debugger is active!
+2025-08-09 17:00:09,669 INFO werkzeug MainThread :  * Debugger PIN: 557-173-487
+2025-08-09 17:02:01,336 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Administrator\\Desktop\\Excel Dashboard\\app.py', reloading
+2025-08-09 17:02:03,311 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:02:03,860 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:02:03,863 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:02:05,548 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/7qj4hthdisc18fee7clm92egek/1754739120000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:02:08,272 WARNING werkzeug MainThread :  * Debugger is active!
+2025-08-09 17:02:08,276 INFO werkzeug MainThread :  * Debugger PIN: 557-173-487
+2025-08-09 17:02:40,477 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Administrator\\Desktop\\Excel Dashboard\\app.py', reloading
+2025-08-09 17:02:42,259 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:02:42,261 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:02:42,807 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:02:42,815 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:02:44,469 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/pjas2jdbdt89p9pcq6rm17d5js/1754739160000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:02:45,871 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:02:47,410 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:02:47,464 WARNING werkzeug MainThread :  * Debugger is active!
+2025-08-09 17:02:47,468 INFO werkzeug MainThread :  * Debugger PIN: 557-173-487
+2025-08-09 17:03:24,737 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Administrator\\Desktop\\Excel Dashboard\\app.py', reloading
+2025-08-09 17:03:26,403 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:03:26,405 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:03:26,905 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:03:26,909 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:03:28,546 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/pjtt9l02dskmho1ieldjh8l0ks/1754739205000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:03:29,688 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:03:31,270 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:23:32,173 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 17:23:32,173 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:25:57,262 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:25:57,267 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:25:57,775 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:25:57,780 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:25:59,383 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/q2t7502j31to5kvvj52dsprels/1754740555000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:26:00,335 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:26:03,088 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:26:03,121 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:26:03,122 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:26:08,308 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:26:08] "GET /?ide_webview_request_time=1754740567915 HTTP/1.1" 200 -
+2025-08-09 17:26:10,359 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:26:10] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:26:10,417 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:26:10] "GET /api/filter?type=yesterday&_t=1754740570072 HTTP/1.1" 200 -
+2025-08-09 17:26:23,451 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:26:23] "GET /api/filter?type=yesterday&_t=1754740583081 HTTP/1.1" 200 -
+2025-08-09 17:26:30,457 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:26:30] "GET /?ide_webview_request_time=1754740588395 HTTP/1.1" 200 -
+2025-08-09 17:26:31,520 DEBUG root Thread-2 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:26:31,525 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:26:31,830 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:26:31] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:26:32,026 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:26:32,033 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:26:33,637 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/7b2g9ct6ne4eapffh19ujaf6rk/1754740590000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:26:34,743 DEBUG root Thread-2 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:26:36,885 DEBUG root Thread-2 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:26:37,215 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:26:37] "GET /api/filter?type=yesterday&_t=1754740591147 HTTP/1.1" 200 -
+2025-08-09 17:26:42,533 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:26:42,536 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:26:43,042 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:26:43,051 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:26:44,617 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/r8fk41a08ptmpt3turq774lteo/1754740600000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:26:46,023 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:26:47,810 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:26:47,837 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:26:47,838 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:26:56,426 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:26:56] "[33mGET /api/debug/unique_status_values?ide_webview_request_time=1754740615094 HTTP/1.1[0m" 404 -
+2025-08-09 17:26:59,079 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:26:59] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:27:18,724 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:27:18] "[33mGET /api/debug/unique_status_values?ide_webview_request_time=1754740638716 HTTP/1.1[0m" 404 -
+2025-08-09 17:27:18,883 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:27:18] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:27:40,357 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:27:40] "GET /?ide_webview_request_time=1754740660044 HTTP/1.1" 200 -
+2025-08-09 17:27:40,849 DEBUG root Thread-5 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:27:40,851 DEBUG urllib3.connectionpool Thread-5 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:27:41,214 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:27:41] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:27:41,576 DEBUG urllib3.connectionpool Thread-5 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:27:41,579 DEBUG urllib3.connectionpool Thread-5 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:27:43,288 DEBUG urllib3.connectionpool Thread-5 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/vol9r02o89uubk4ml0f0ceau7g/1754740660000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:27:44,454 DEBUG root Thread-5 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:27:47,530 DEBUG root Thread-5 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:27:47,730 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:27:47] "GET /api/filter?type=yesterday&_t=1754740660842 HTTP/1.1" 200 -
+2025-08-09 17:27:48,095 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:27:48,100 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:27:48,631 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:27:48,633 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:27:50,424 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/vne08hqpghg74u5t8sqegqkrd4/1754740665000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:27:51,743 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:27:54,323 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:27:54,367 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:27:54,367 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:28:03,709 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:28:03] "[33mGET /api/debug/unique_status_values?ide_webview_request_time=1754740683698 HTTP/1.1[0m" 404 -
+2025-08-09 17:28:03,930 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:28:03] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:28:31,672 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:28:31,676 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:28:32,177 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:28:32,181 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:28:32,428 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:28:32] "GET /?ide_webview_request_time=1754740712106 HTTP/1.1" 200 -
+2025-08-09 17:28:33,259 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:28:33] "GET /api/filter?type=yesterday&_t=1754740713022 HTTP/1.1" 200 -
+2025-08-09 17:28:33,405 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:28:33] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:28:33,814 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/8hq28cv0tgkrsj62o6u0tvr0a8/1754740710000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:28:34,933 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:28:37,049 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:28:37,080 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:28:37,080 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:29:44,578 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:29:44,581 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:29:45,070 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:29:45,073 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:29:46,704 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/26v9cebhbcjds255bocesht4ok/1754740780000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:29:47,676 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:29:49,778 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:29:49,954 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:29:49,954 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:29:50,922 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:29:50] "[33mGET /api/debug/unique_status_values?ide_webview_request_time=1754740790909 HTTP/1.1[0m" 404 -
+2025-08-09 17:29:51,163 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:29:51] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:29:52,803 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:29:52] "[33mGET /api/debug/unique_status_values?ide_webview_request_time=1754740792492 HTTP/1.1[0m" 404 -
+2025-08-09 17:29:53,066 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:29:53] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:30:08,255 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:08] "[33mGET /api/debug/unique_status_values?ide_webview_request_time=1754740808243 HTTP/1.1[0m" 404 -
+2025-08-09 17:30:08,527 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:08] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:30:30,553 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:30] "GET /?ide_webview_request_time=1754740830229 HTTP/1.1" 200 -
+2025-08-09 17:30:31,117 DEBUG root Thread-11 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:30:31,120 DEBUG urllib3.connectionpool Thread-11 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:30:31,480 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:31] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:30:31,622 DEBUG urllib3.connectionpool Thread-11 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:30:31,629 DEBUG urllib3.connectionpool Thread-11 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:30:33,346 DEBUG urllib3.connectionpool Thread-11 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/lqqgpe7ms5uvupgckfao081ulo/1754740830000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:30:34,354 DEBUG root Thread-11 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:30:35,995 DEBUG root Thread-11 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:30:36,250 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:36] "GET /api/filter?type=yesterday&_t=1754740831108 HTTP/1.1" 200 -
+2025-08-09 17:30:37,976 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:30:37,979 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:30:38,571 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:30:38,576 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:30:41,679 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/6a756320jih28hij4oa7ojklbg/1754740835000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:30:42,696 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:30:45,079 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:30:45,156 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:30:45,156 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:30:45,354 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:45] "[33mGET /api/debug/unique_status_values?ide_webview_request_time=1754740844574 HTTP/1.1[0m" 404 -
+2025-08-09 17:30:45,588 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:45] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:30:47,770 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:47] "[33mGET /api/debug/unique_status_values?ide_webview_request_time=1754740847449 HTTP/1.1[0m" 404 -
+2025-08-09 17:30:48,142 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:48] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:30:51,875 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:51] "GET /api/debug/columns?ide_webview_request_time=1754740851838 HTTP/1.1" 200 -
+2025-08-09 17:30:52,182 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:30:52] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:31:05,243 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:31:05] "GET /?ide_webview_request_time=1754740864925 HTTP/1.1" 200 -
+2025-08-09 17:31:06,021 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:31:06] "GET /api/filter?type=yesterday&_t=1754740865783 HTTP/1.1" 200 -
+2025-08-09 17:31:11,765 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:31:11] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:31:16,036 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:31:16,040 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:31:16,652 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:31:16,659 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:31:18,478 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/3k8clectu1t0m20qjtgvf1hs7k/1754740875000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:31:19,089 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:31:21,172 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:31:21,236 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:31:21,236 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:31:22,254 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:31:22] "GET /api/debug/columns?ide_webview_request_time=1754740882224 HTTP/1.1" 200 -
+2025-08-09 17:31:22,609 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:31:22] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:31:24,608 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:31:24] "GET /api/debug/columns?ide_webview_request_time=1754740884231 HTTP/1.1" 200 -
+2025-08-09 17:31:24,813 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:31:24] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:34:28,913 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:34:28] "GET /?ide_webview_request_time=1754741068600 HTTP/1.1" 200 -
+2025-08-09 17:34:29,318 DEBUG root Thread-18 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:34:29,320 DEBUG urllib3.connectionpool Thread-18 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:34:29,816 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:34:29] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:34:29,932 DEBUG urllib3.connectionpool Thread-18 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:34:29,935 DEBUG urllib3.connectionpool Thread-18 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:34:31,622 DEBUG urllib3.connectionpool Thread-18 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/qt29t0ukrokl3r6cugj50qnpcs/1754741065000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:34:32,712 DEBUG root Thread-18 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:34:34,355 DEBUG root Thread-18 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:34:34,574 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:34:34] "GET /api/filter?type=yesterday&_t=1754741069307 HTTP/1.1" 200 -
+2025-08-09 17:34:36,530 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:34:36,535 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:34:37,014 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:34:37,017 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:34:38,597 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/t96dnppj5dgi4vjajb8v7k3keo/1754741075000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:34:40,065 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:34:42,173 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:34:42,274 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:34:42,274 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:34:50,362 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:34:50,365 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:34:50,888 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:34:50,892 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:34:52,590 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/pmg0e8b29tuhp73v1jmq38shp0/1754741090000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:34:53,973 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:34:56,415 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:34:56,502 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:34:56,502 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:35:39,758 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:35:39] "GET /api/counts?ide_webview_request_time=1754741139722 HTTP/1.1" 200 -
+2025-08-09 17:35:39,950 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:35:39] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:37:18,631 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:37:18] "GET /?ide_webview_request_time=1754741068600 HTTP/1.1" 200 -
+2025-08-09 17:37:19,221 DEBUG root Thread-21 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:37:19,224 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:37:19,573 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:37:19] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:37:19,767 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:37:19,771 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:37:21,307 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/8vfsocud2j7ad9gkmt7bifhao0/1754741235000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:37:22,307 DEBUG root Thread-21 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:37:22,532 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:37:22] "GET /?ide_webview_request_time=1754741068600 HTTP/1.1" 200 -
+2025-08-09 17:37:23,138 DEBUG root Thread-24 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:37:23,143 DEBUG urllib3.connectionpool Thread-24 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:37:23,162 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:37:23] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:37:23,634 DEBUG urllib3.connectionpool Thread-24 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:37:23,656 DEBUG urllib3.connectionpool Thread-24 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:37:24,030 DEBUG root Thread-21 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:37:24,199 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:37:24] "GET /api/filter?type=yesterday&_t=1754741239214 HTTP/1.1" 200 -
+2025-08-09 17:37:25,419 DEBUG urllib3.connectionpool Thread-24 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/0bee1798f1tgj9qi66pctuf7uc/1754741240000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:37:25,991 DEBUG root Thread-24 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:37:27,339 DEBUG root Thread-24 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:37:27,518 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:37:27] "GET /api/filter?type=yesterday&_t=1754741242806 HTTP/1.1" 200 -
+2025-08-09 17:38:11,395 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:38:11] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:38:14,338 DEBUG root Thread-4 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:38:14,343 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:38:15,027 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:38:15,033 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:38:16,760 DEBUG urllib3.connectionpool Thread-4 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/1r23862hs4rfgdgdj23v21apv8/1754741290000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:38:17,867 DEBUG root Thread-4 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:38:19,274 DEBUG root Thread-4 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:38:19,295 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:38:19] "GET /api/counts?ide_webview_request_time=1754741139722 HTTP/1.1" 200 -
+2025-08-09 17:38:19,475 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:38:19] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:39:43,684 DEBUG root Thread-6 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:39:43,686 DEBUG urllib3.connectionpool Thread-6 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:39:44,244 DEBUG urllib3.connectionpool Thread-6 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:39:44,247 DEBUG urllib3.connectionpool Thread-6 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:39:45,945 DEBUG urllib3.connectionpool Thread-6 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/hbd7arojqjcikoanjvtphk9s78/1754741380000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:39:46,675 DEBUG root Thread-6 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:39:48,500 DEBUG root Thread-6 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:39:48,523 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:39:48] "GET /api/counts?ide_webview_request_time=1754741383676 HTTP/1.1" 200 -
+2025-08-09 17:39:48,693 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:39:48] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:39:50,865 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:39:50] "GET /api/counts?ide_webview_request_time=1754741390836 HTTP/1.1" 200 -
+2025-08-09 17:39:51,016 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:39:51] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:39:51,969 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:39:51] "GET /api/counts?ide_webview_request_time=1754741391942 HTTP/1.1" 200 -
+2025-08-09 17:39:52,316 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:39:52] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:40:04,400 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:04] "GET /api/counts HTTP/1.1" 200 -
+2025-08-09 17:40:04,508 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-09 17:40:45,852 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:45] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:46,045 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:46] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:46,254 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:46] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:46,500 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:46] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:46,646 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:46] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:46,845 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:46] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:47,003 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:47] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:47,175 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:47] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:47,364 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:47] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:47,560 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:47] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:47,742 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:47] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:47,930 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:47] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:48,119 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:48] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:48,336 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:48] "GET / HTTP/1.1" 200 -
+2025-08-09 17:40:48,737 DEBUG root Thread-41 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:40:48,738 DEBUG urllib3.connectionpool Thread-41 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:40:48,756 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-09 17:40:49,738 DEBUG urllib3.connectionpool Thread-41 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:40:49,747 DEBUG urllib3.connectionpool Thread-41 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:40:51,532 DEBUG urllib3.connectionpool Thread-41 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/t0jo90k1htbmao8jjhgcnidc04/1754741445000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:40:53,009 DEBUG root Thread-41 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:40:55,165 DEBUG root Thread-41 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:40:55,458 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:40:55] "GET /api/filter?type=yesterday&_t=1754741448729 HTTP/1.1" 200 -
+2025-08-09 17:41:12,302 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:12] "GET /api/filter?type=yesterday&_t=1754741472116 HTTP/1.1" 200 -
+2025-08-09 17:41:21,014 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:21] "GET / HTTP/1.1" 200 -
+2025-08-09 17:41:21,355 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:21] "GET / HTTP/1.1" 200 -
+2025-08-09 17:41:21,599 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:21] "GET /api/filter?type=yesterday&_t=1754741481275 HTTP/1.1" 200 -
+2025-08-09 17:41:21,755 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:21] "GET / HTTP/1.1" 200 -
+2025-08-09 17:41:21,913 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:21] "GET /api/filter?type=yesterday&_t=1754741481557 HTTP/1.1" 200 -
+2025-08-09 17:41:22,149 INFO werkzeug Thread-50 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:22] "GET / HTTP/1.1" 200 -
+2025-08-09 17:41:22,265 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:22] "GET /api/filter?type=yesterday&_t=1754741481946 HTTP/1.1" 200 -
+2025-08-09 17:41:22,537 INFO werkzeug Thread-52 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:22] "GET / HTTP/1.1" 200 -
+2025-08-09 17:41:22,658 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:22] "GET /api/filter?type=yesterday&_t=1754741482337 HTTP/1.1" 200 -
+2025-08-09 17:41:22,949 INFO werkzeug Thread-54 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:22] "GET / HTTP/1.1" 200 -
+2025-08-09 17:41:23,045 INFO werkzeug Thread-53 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:23] "GET /api/filter?type=yesterday&_t=1754741482736 HTTP/1.1" 200 -
+2025-08-09 17:41:23,355 INFO werkzeug Thread-56 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:23] "GET / HTTP/1.1" 200 -
+2025-08-09 17:41:23,415 INFO werkzeug Thread-55 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:23] "GET /api/filter?type=yesterday&_t=1754741483114 HTTP/1.1" 200 -
+2025-08-09 17:41:23,779 INFO werkzeug Thread-57 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:23] "GET /api/filter?type=yesterday&_t=1754741483492 HTTP/1.1" 200 -
+2025-08-09 17:41:33,214 INFO werkzeug Thread-58 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:41:33] "GET /api/filter?type=thisweek&_t=1754741493009 HTTP/1.1" 200 -
+2025-08-09 17:42:08,827 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:08] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:42:10,177 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:10] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:42:11,574 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:11] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:42:12,932 INFO werkzeug Thread-59 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:12] "GET /?ide_webview_request_time=1754741068600 HTTP/1.1" 200 -
+2025-08-09 17:42:13,370 DEBUG root Thread-60 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:42:13,372 DEBUG urllib3.connectionpool Thread-60 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:42:13,728 INFO werkzeug Thread-61 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:13] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:42:13,938 DEBUG urllib3.connectionpool Thread-60 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:42:13,941 DEBUG urllib3.connectionpool Thread-60 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:42:15,640 DEBUG urllib3.connectionpool Thread-60 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/qa5g4l9vur7947hffa8e131264/1754741530000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:42:15,715 INFO werkzeug Thread-62 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:15] "GET /?ide_webview_request_time=1754741068600 HTTP/1.1" 200 -
+2025-08-09 17:42:16,329 INFO werkzeug Thread-63 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:16] "GET /?ide_webview_request_time=1754741068600 HTTP/1.1" 200 -
+2025-08-09 17:42:16,593 DEBUG root Thread-64 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:42:16,594 DEBUG urllib3.connectionpool Thread-64 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:42:16,630 INFO werkzeug Thread-65 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:16] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:42:16,799 INFO werkzeug Thread-66 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:16] "GET /?ide_webview_request_time=1754741068600 HTTP/1.1" 200 -
+2025-08-09 17:42:17,107 DEBUG urllib3.connectionpool Thread-64 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:42:17,117 DEBUG urllib3.connectionpool Thread-64 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:42:17,336 DEBUG root Thread-67 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:42:17,339 DEBUG urllib3.connectionpool Thread-67 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:42:17,406 INFO werkzeug Thread-68 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:17] "GET /?ide_webview_request_time=1754741068600 HTTP/1.1" 200 -
+2025-08-09 17:42:17,706 DEBUG root Thread-69 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:42:17,707 DEBUG urllib3.connectionpool Thread-69 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:42:17,797 INFO werkzeug Thread-70 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:17] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:42:17,918 DEBUG urllib3.connectionpool Thread-67 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:42:17,923 DEBUG urllib3.connectionpool Thread-67 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:42:18,108 DEBUG root Thread-60 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:42:18,267 INFO werkzeug Thread-71 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:18] "GET /?ide_webview_request_time=1754741068600 HTTP/1.1" 200 -
+2025-08-09 17:42:18,362 DEBUG urllib3.connectionpool Thread-69 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:42:18,380 DEBUG urllib3.connectionpool Thread-69 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:42:18,943 DEBUG root Thread-72 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:42:18,951 DEBUG urllib3.connectionpool Thread-72 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:42:18,982 INFO werkzeug Thread-73 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:18] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:42:18,989 DEBUG urllib3.connectionpool Thread-64 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/10pjjp9aljaqbphjuh4isv3ji8/1754741535000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:42:19,497 DEBUG urllib3.connectionpool Thread-72 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:42:19,504 DEBUG urllib3.connectionpool Thread-72 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:42:19,510 DEBUG root Thread-60 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:42:19,561 DEBUG urllib3.connectionpool Thread-67 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/10pjjp9aljaqbphjuh4isv3ji8/1754741535000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:42:19,718 INFO werkzeug Thread-60 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:19] "GET /api/filter?type=yesterday&_t=1754741533361 HTTP/1.1" 200 -
+2025-08-09 17:42:19,843 DEBUG root Thread-64 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:42:20,035 DEBUG urllib3.connectionpool Thread-69 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/10pjjp9aljaqbphjuh4isv3ji8/1754741535000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:42:20,201 DEBUG root Thread-67 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:42:21,157 DEBUG urllib3.connectionpool Thread-72 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/10pjjp9aljaqbphjuh4isv3ji8/1754741535000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:42:21,474 DEBUG root Thread-69 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:42:22,892 DEBUG root Thread-64 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:42:23,505 INFO werkzeug Thread-64 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:23] "GET /api/filter?type=yesterday&_t=1754741536588 HTTP/1.1" 200 -
+2025-08-09 17:42:23,633 DEBUG root Thread-72 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:42:24,426 DEBUG root Thread-67 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:42:25,008 INFO werkzeug Thread-67 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:25] "GET /api/filter?type=yesterday&_t=1754741537026 HTTP/1.1" 200 -
+2025-08-09 17:42:25,720 DEBUG root Thread-69 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:42:25,944 INFO werkzeug Thread-69 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:25] "GET /api/filter?type=yesterday&_t=1754741537701 HTTP/1.1" 200 -
+2025-08-09 17:42:26,526 DEBUG root Thread-72 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:42:26,677 INFO werkzeug Thread-72 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:26] "GET /api/filter?type=yesterday&_t=1754741538616 HTTP/1.1" 200 -
+2025-08-09 17:42:51,205 INFO werkzeug Thread-75 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:42:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-09 17:58:04,795 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:58:04,800 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:58:05,432 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:58:05,441 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:58:07,316 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/s49h5i5b8rvgth74ju6ij36emg/1754742485000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:58:09,057 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:58:11,710 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:58:12,678 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:58:12,678 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:58:45,953 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:58:45] "GET /?ide_webview_request_time=1754742525933 HTTP/1.1" 200 -
+2025-08-09 17:58:46,778 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:58:46] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:58:46,997 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:58:46] "GET /api/filter?type=yesterday&_t=1754742526653 HTTP/1.1" 200 -
+2025-08-09 17:59:31,897 INFO werkzeug Thread-76 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:59:31] "GET /?ide_webview_request_time=1754742571473 HTTP/1.1" 200 -
+2025-08-09 17:59:32,677 DEBUG root Thread-77 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:59:32,695 DEBUG urllib3.connectionpool Thread-77 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:59:33,039 INFO werkzeug Thread-78 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:59:33] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 17:59:33,185 DEBUG urllib3.connectionpool Thread-77 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:59:33,193 DEBUG urllib3.connectionpool Thread-77 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:59:33,239 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 17:59:33,243 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 17:59:33,722 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 17:59:33,727 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 17:59:34,883 DEBUG urllib3.connectionpool Thread-77 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/bcfqmn5nlnch4pir4mm7ufmob4/1754742570000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:59:35,491 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/bcfqmn5nlnch4pir4mm7ufmob4/1754742570000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 17:59:35,974 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 17:59:36,024 DEBUG root Thread-77 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 17:59:37,828 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:59:38,076 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 17:59:38,077 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 17:59:39,016 DEBUG root Thread-77 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 17:59:39,197 INFO werkzeug Thread-77 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 17:59:39] "GET /api/filter?type=yesterday&_t=1754742572666 HTTP/1.1" 200 -
+2025-08-09 18:00:08,879 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:00:08] "GET /?ide_webview_request_time=1754742608860 HTTP/1.1" 200 -
+2025-08-09 18:00:09,741 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:00:09] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 18:00:09,763 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:00:09] "GET /api/filter?type=yesterday&_t=1754742609670 HTTP/1.1" 200 -
+2025-08-09 18:02:09,135 DEBUG root MainThread : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 18:02:09,139 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 18:02:09,606 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:02:09] "GET /?ide_webview_request_time=1754742608860 HTTP/1.1" 200 -
+2025-08-09 18:02:09,651 DEBUG urllib3.connectionpool MainThread : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 18:02:09,654 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 18:02:09,754 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:02:09] "GET /?ide_webview_request_time=1754742608860 HTTP/1.1" 200 -
+2025-08-09 18:02:10,376 DEBUG root Thread-6 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 18:02:10,379 DEBUG urllib3.connectionpool Thread-6 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 18:02:10,908 DEBUG urllib3.connectionpool Thread-6 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 18:02:10,914 DEBUG urllib3.connectionpool Thread-6 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 18:02:10,969 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:02:10] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 18:02:11,382 DEBUG urllib3.connectionpool MainThread : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/uofftcfjg5vjui7htn30kd71ss/1754742725000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 18:02:12,678 DEBUG urllib3.connectionpool Thread-6 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/b13deujqjrd73gn2e2e9f6lb64/1754742730000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 18:02:12,816 DEBUG root MainThread : Successfully fetched data. Status code: 200
+2025-08-09 18:02:14,088 DEBUG root Thread-6 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 18:02:14,939 DEBUG root MainThread : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 18:02:14,999 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.109:8080
+2025-08-09 18:02:14,999 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-08-09 18:02:15,652 DEBUG root Thread-6 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 18:02:15,726 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:02:15] "GET /api/filter?type=yesterday&_t=1754742730370 HTTP/1.1" 200 -
+2025-08-09 18:03:04,375 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:04] "GET /?ide_webview_request_time=1754742784368 HTTP/1.1" 200 -
+2025-08-09 18:03:04,643 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:04] "GET /api/filter?type=yesterday&_t=1754742784604 HTTP/1.1" 200 -
+2025-08-09 18:03:05,026 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:05] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 18:03:08,444 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:08] "GET /?ide_webview_request_time=1754742788438 HTTP/1.1" 200 -
+2025-08-09 18:03:08,676 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:08] "GET /api/filter?type=yesterday&_t=1754742788640 HTTP/1.1" 200 -
+2025-08-09 18:03:09,196 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:09] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 18:03:43,045 INFO werkzeug Thread-79 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:43] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:43,141 INFO werkzeug Thread-80 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:43] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:43,305 INFO werkzeug Thread-81 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:43] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:43,521 INFO werkzeug Thread-82 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:43] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:43,659 INFO werkzeug Thread-83 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:43] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:43,839 INFO werkzeug Thread-84 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:43] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:44,071 INFO werkzeug Thread-85 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:44] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:44,231 INFO werkzeug Thread-86 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:44] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:44,426 INFO werkzeug Thread-87 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:44] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:44,632 INFO werkzeug Thread-88 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:44] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:44,838 INFO werkzeug Thread-89 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:44] "GET / HTTP/1.1" 200 -
+2025-08-09 18:03:45,152 DEBUG root Thread-90 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 18:03:45,153 DEBUG urllib3.connectionpool Thread-90 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 18:03:45,178 INFO werkzeug Thread-91 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-09 18:03:45,834 DEBUG urllib3.connectionpool Thread-90 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 18:03:45,844 DEBUG urllib3.connectionpool Thread-90 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 18:03:47,561 DEBUG urllib3.connectionpool Thread-90 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/m261lmudd449dsson11kq59r6o/1754742825000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 18:03:49,087 DEBUG root Thread-90 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 18:03:51,192 DEBUG root Thread-90 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 18:03:51,488 INFO werkzeug Thread-90 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:03:51] "GET /api/filter?type=yesterday&_t=1754742825145 HTTP/1.1" 200 -
+2025-08-09 18:04:25,569 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:04:25] "GET / HTTP/1.1" 200 -
+2025-08-09 18:04:26,254 DEBUG root Thread-15 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 18:04:26,256 DEBUG urllib3.connectionpool Thread-15 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 18:04:26,582 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:04:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-09 18:04:26,890 DEBUG urllib3.connectionpool Thread-15 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 18:04:26,897 DEBUG urllib3.connectionpool Thread-15 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 18:04:28,721 DEBUG urllib3.connectionpool Thread-15 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/1frbk8ukfepqae88c3neh72qk8/1754742865000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 18:04:30,064 DEBUG root Thread-15 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 18:04:32,091 DEBUG root Thread-15 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 18:04:32,140 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:04:32] "GET /api/filter?type=yesterday&_t=1754742866246 HTTP/1.1" 200 -
+2025-08-09 18:04:50,335 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:04:50] "GET /api/filter?type=today&_t=1754742889947 HTTP/1.1" 200 -
+2025-08-09 18:05:10,382 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:05:10] "GET /api/unique/bd HTTP/1.1" 200 -
+2025-08-09 18:05:16,986 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:05:16] "GET /api/filter?type=today&field=bd&q=Nadesh&_t=1754742916625 HTTP/1.1" 200 -
+2025-08-09 18:22:09,452 DEBUG root Thread-21 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 18:22:09,457 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 18:22:10,103 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 18:22:10,106 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 18:22:11,865 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/l1jqir7dhmvo26pj3n266vidfs/1754743925000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 18:22:13,253 DEBUG root Thread-21 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 18:22:14,421 DEBUG root Thread-21 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 18:22:14,450 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:22:14] "GET /api/filter?type=thisweek&field=bd&q=Nadesh&_t=1754743929117 HTTP/1.1" 200 -
+2025-08-09 18:22:32,562 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:22:32] "GET /api/filter?type=thisweek&_t=1754743952519 HTTP/1.1" 200 -
+2025-08-09 18:22:33,110 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:22:33] "GET /api/filter?type=thisweek&_t=1754743952735 HTTP/1.1" 200 -
+2025-08-09 18:22:51,461 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:22:51] "GET /api/filter?type=thismonth&_t=1754743971390 HTTP/1.1" 200 -
+2025-08-09 18:25:24,527 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:25:24] "GET / HTTP/1.1" 200 -
+2025-08-09 18:25:24,662 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:25:24] "GET / HTTP/1.1" 200 -
+2025-08-09 18:25:24,852 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:25:24] "GET / HTTP/1.1" 200 -
+2025-08-09 18:25:25,121 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:25:25] "GET / HTTP/1.1" 200 -
+2025-08-09 18:25:25,296 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:25:25] "GET / HTTP/1.1" 200 -
+2025-08-09 18:25:25,573 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:25:25] "GET / HTTP/1.1" 200 -
+2025-08-09 18:25:25,720 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:25:25] "GET / HTTP/1.1" 200 -
+2025-08-09 18:25:25,973 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:25:25] "GET / HTTP/1.1" 200 -
+2025-08-09 18:25:27,514 DEBUG root Thread-33 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 18:25:27,521 DEBUG urllib3.connectionpool Thread-33 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 18:25:27,889 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:25:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-09 18:25:28,006 DEBUG urllib3.connectionpool Thread-33 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 18:25:28,011 DEBUG urllib3.connectionpool Thread-33 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 18:25:29,601 DEBUG urllib3.connectionpool Thread-33 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/tsn872j404l18q8q8r538t0a3g/1754744125000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 18:25:30,526 DEBUG root Thread-33 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 18:25:33,139 DEBUG root Thread-33 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 18:25:33,187 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:25:33] "GET /api/filter?type=yesterday&_t=1754744127493 HTTP/1.1" 200 -
+2025-08-09 18:26:16,826 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:26:16] "GET /?ide_webview_request_time=1754742788438 HTTP/1.1" 200 -
+2025-08-09 18:26:16,893 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:26:16] "GET /?ide_webview_request_time=1754742788438 HTTP/1.1" 200 -
+2025-08-09 18:26:19,469 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:26:19] "GET /api/filter?type=yesterday&_t=1754744179377 HTTP/1.1" 200 -
+2025-08-09 18:26:19,686 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:26:19] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-08-09 18:27:56,191 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:27:56] "GET / HTTP/1.1" 200 -
+2025-08-09 18:27:56,434 DEBUG root Thread-40 (process_request_thread) : Fetching data from: https://docs.google.com/spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx
+2025-08-09 18:27:56,436 DEBUG urllib3.connectionpool Thread-40 (process_request_thread) : Starting new HTTPS connection (1): docs.google.com:443
+2025-08-09 18:27:56,925 DEBUG urllib3.connectionpool Thread-40 (process_request_thread) : https://docs.google.com:443 "GET /spreadsheets/d/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU/export?format=xlsx HTTP/1.1" 307 None
+2025-08-09 18:27:56,928 DEBUG urllib3.connectionpool Thread-40 (process_request_thread) : Starting new HTTPS connection (1): doc-0o-4c-sheets.googleusercontent.com:443
+2025-08-09 18:27:58,461 DEBUG urllib3.connectionpool Thread-40 (process_request_thread) : https://doc-0o-4c-sheets.googleusercontent.com:443 "GET /export/54bogvaave6cua4cdnls17ksc4/q2f3hphu3lcpcol7kd9i9nt31o/1754744275000/103992338851723267616/*/1JJFy0SjFGoJuYPSjwg-toCXbptr9v1DeiglHtv7hoAU?format=xlsx HTTP/1.1" 200 None
+2025-08-09 18:27:59,594 DEBUG root Thread-40 (process_request_thread) : Successfully fetched data. Status code: 200
+2025-08-09 18:28:01,869 DEBUG root Thread-40 (process_request_thread) : Successfully loaded 2501 rows and 28 columns into DataFrame.
+2025-08-09 18:28:01,923 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:28:01] "GET /api/filter?type=yesterday&_t=1754744276354 HTTP/1.1" 200 -
+2025-08-09 18:28:34,263 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:28:34] "GET / HTTP/1.1" 200 -
+2025-08-09 18:28:34,879 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:28:34] "GET / HTTP/1.1" 200 -
+2025-08-09 18:28:35,375 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:28:35] "GET / HTTP/1.1" 200 -
+2025-08-09 18:28:35,642 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:28:35] "GET /api/filter?type=yesterday&_t=1754744315597 HTTP/1.1" 200 -
+2025-08-09 18:28:37,724 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:28:37] "GET / HTTP/1.1" 200 -
+2025-08-09 18:28:38,035 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:28:38] "GET /api/filter?type=yesterday&_t=1754744317903 HTTP/1.1" 200 -
+2025-08-09 18:28:38,216 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:28:38] "GET / HTTP/1.1" 200 -
+2025-08-09 18:28:38,518 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:28:38] "GET /api/filter?type=yesterday&_t=1754744318430 HTTP/1.1" 200 -
+2025-08-09 18:28:45,986 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [09/Aug/2025 18:28:45] "GET /api/filter?type=last30&_t=1754744325862 HTTP/1.1" 200 -

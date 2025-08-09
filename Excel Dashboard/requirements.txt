@@ -1,0 +1,6 @@
+Flask
+pandas
+requests
+python-dateutil
+openpyxl
+serverless-wsgi

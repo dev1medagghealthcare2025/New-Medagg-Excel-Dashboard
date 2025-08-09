@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
+    <style>
+        .toast {
+            opacity: 1 !important;
+        }
+        .loading-spinner {
+            border: 4px solid rgba(0, 0, 0, .1);
+            border-left-color: transparent;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-7xl mx-auto">
+        <h1 class="text-3xl font-bold text-gray-800 mb-6">Medagg Data Dashboard</h1>
+
+        
+
+        <!-- Filtered Results Summary (Initially Hidden) -->
+        <div class="filtered-results-container hidden bg-white p-6 rounded-lg shadow-md mb-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">Filtered Summary</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-gray-600 text-sm font-medium">Filtered Total Records</h3>
+                    <p id="filtered-total-records" class="text-2xl font-bold">0</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-gray-600 text-sm font-medium">Filtered OPD Completed</h3>
+                    <p id="filtered-opd-count" class="text-2xl font-bold text-green-500">-</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-gray-600 text-sm font-medium">Filtered IPD Completed</h3>
+                    <p id="filtered-ipd-count" class="text-2xl font-bold text-blue-500">-</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-gray-600 text-sm font-medium">Filtered Surgery Suggested</h3>
+                    <p id="filtered-surgery-suggested" class="text-2xl font-bold text-yellow-500">0</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-gray-600 text-sm font-medium">Filtered Diagnostic Suggested</h3>
+                    <p id="filtered-diagnostic-suggested" class="text-2xl font-bold text-purple-500">0</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
+                <!-- Time Period Filter -->
+                <div>
+                    <label for="time-period-select" class="block text-sm font-medium text-gray-700">Time Period</label>
+                    <select id="time-period-select" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                        <option value="yesterday">Yesterday</option>
+                        <option value="today">Today</option>
+                        <option value="thisweek">This Week</option>
+                        <option value="last7">Last 7 Days</option>
+                        <option value="thismonth">This Month</option>
+                        <option value="last30">Last 30 Days</option>
+                        <option value="thisyear">This Year</option>
+                        <option value="custom">Custom Range</option>
+                    </select>
+                </div>
+
+                <!-- Custom Date Range Inputs -->
+                <div id="custom-date-container" class="hidden md:grid md:grid-cols-2 md:gap-4">
+                    <div>
+                        <label for="start-date" class="block text-sm font-medium text-gray-700">Start Date</label>
+                        <input type="date" id="start-date" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                    </div>
+                    <div>
+                        <label for="end-date" class="block text-sm font-medium text-gray-700">End Date</label>
+                        <input type="date" id="end-date" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                    </div>
+                </div>
+
+                <!-- Secondary Field Filter -->
+                <div>
+                    <label for="field-select" class="block text-sm font-medium text-gray-700">Filter By</label>
+                    <select id="field-select" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                        <option value="">None</option>
+                        <option value="bd">BD</option>
+                        <option value="city">City</option>
+                        <option value="hospital">Hospital</option>
+                        <option value="state">State</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <!-- Value Input (dynamic) -->
+                <div id="value-input-container">
+                     <label class="block text-sm font-medium text-gray-700">Value</label>
+                    <input type="text" id="field-input" placeholder="e.g., Status:Pending" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm hidden" />
+                    <select id="bd-select" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm hidden"></select>
+                    <select id="city-select" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm hidden"></select>
+                    <select id="hospital-select" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm hidden"></select>
+                    <select id="state-select" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm hidden"></select>
+                </div>
+            </div>
+            <div class="mt-4">
+                <button id="apply-filter-btn" class="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    Apply Filter
+                </button>
+            </div>
+        </div>
+
+        <!-- Data Table -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <!-- Filtered Stats -->
+            <div id="filtered-stats-container" class="hidden mb-4 p-4 bg-gray-50 rounded-lg">
+                <h3 class="text-lg font-semibold text-gray-700">Filtered Results</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-2">
+                    <div>
+                        <p class="text-sm text-gray-500">Matching Records</p>
+                        <p id="filtered-total-records" class="text-2xl font-bold">-</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500">OPD Completed</p>
+                        <p id="filtered-opd-count" class="text-2xl font-bold text-green-500">-</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500">IPD Completed</p>
+                        <p id="filtered-ipd-count" class="text-2xl font-bold text-blue-500">-</p>
+                    </div>
+                </div>
+            </div>
+            <div id="table-container" class="overflow-x-auto">
+                <p id="loading-message">Loading data...</p>
+                <table id="data-table" class="min-w-full divide-y divide-gray-200 hidden">
+                    <thead class="bg-gray-50">
+                        <!-- Headers will be dynamically inserted here -->
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <!-- Rows will be dynamically inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- CONSTANTS & CONFIG ---
+            const columnsToHide = [
+                "Remarks", "Reg fee", "Reg-Fee", "Recieved Advance", "Unnamed 26", "Unnamed: 26",
+                "Number", "Patients Name", "Paid to Hospital", "IPD Adm date", "IPD Status",
+                "Discharge Date", "TeleCRM Update", "Time"
+            ].map(h => h.toLowerCase().trim());
+
+            // --- DOM Element Selection ---
+            const timePeriodSelect = document.getElementById('time-period-select');
+            const customDateContainer = document.getElementById('custom-date-container');
+            const startDateInput = document.getElementById('start-date');
+            const endDateInput = document.getElementById('end-date');
+            const fieldSelect = document.getElementById('field-select');
+            const fieldInput = document.getElementById('field-input');
+            const dropdowns = {
+                bd: document.getElementById('bd-select'),
+                city: document.getElementById('city-select'),
+                hospital: document.getElementById('hospital-select'),
+                state: document.getElementById('state-select')
+            };
+            const applyFilterBtn = document.getElementById('apply-filter-btn');
+            const loadingMsg = document.getElementById('loading-message');
+            const table = document.getElementById('data-table');
+
+            // --- Helper Functions ---
+            function showToast(message, type = 'info') {
+                toastr.options = { "closeButton": true, "progressBar": true, "positionClass": "toast-top-right" };
+                toastr[type](message);
+            }
+
+            function showLoading(isLoading) {
+                applyFilterBtn.disabled = isLoading;
+                if (isLoading) {
+                    loadingMsg.textContent = 'Loading data...';
+                    loadingMsg.style.display = 'block';
+                    table.style.display = 'none';
+                } else {
+                    loadingMsg.style.display = 'none';
+                }
+            }
+
+            function handleError(errorMessage) {
+                console.error(errorMessage);
+                showToast(errorMessage, 'error');
+                loadingMsg.textContent = `Error: ${errorMessage}`;
+                loadingMsg.style.display = 'block';
+                table.style.display = 'none';
+            }
+            
+            // --- Data Loading --- 
+            // Load total counts once on page load for the main summary
+            function updateMainSummaries(counts) {
+                if (!counts) return;
+                console.log('Updating main summaries with:', counts);
+                
+                // Ensure we're updating the correct elements
+                document.getElementById('total-records-count').textContent = counts.total_records || 0;
+                document.getElementById('opd-completed-count').textContent = counts.opd_count || 0;
+                document.getElementById('ipd-completed-count').textContent = counts.ipd_count || 0;
+                document.getElementById('surgery-suggested-count').textContent = counts.surgery_suggested || 0;
+                document.getElementById('diagnostic-suggested-count').textContent = counts.diagnostic_suggested || 0;
+                document.getElementById('surgery-not-suggested-count').textContent = counts.surgery_not_suggested || 0;
+            }
+
+            function updateFilteredSummaries(counts) {
+                if (!counts) return;
+                console.log('Updating filtered summaries with:', counts);
+                
+                // Use direct DOM manipulation instead of jQuery for reliability
+                document.getElementById('filtered-total-records').textContent = counts.total_records || 0;
+                document.getElementById('filtered-opd-count').textContent = counts.opd_count || 0;
+                document.getElementById('filtered-ipd-count').textContent = counts.ipd_count || 0;
+                document.getElementById('filtered-surgery-suggested').textContent = counts.surgery_suggested || 0;
+                document.getElementById('filtered-diagnostic-suggested').textContent = counts.diagnostic_suggested || 0;
+                
+                // Show the filtered results section
+                document.querySelector('.filtered-results-container').classList.remove('hidden');
+            }
+
+            function loadData(filterParams = {}) {
+                showLoading(true);
+                
+                let url = '/api/filter';
+                const params = new URLSearchParams(filterParams);
+                // Add cache buster to ensure fresh data
+                params.append('_t', Date.now());
+                if (params.toString()) {
+                    url += '?' + params.toString();
+                }
+                
+                console.log('Loading data from:', url);
+                
+                $.get(url)
+                    .done(function(response) {
+                        console.log('API Response:', response);
+                        if (response.success !== false) {
+                            if (Object.keys(filterParams).length > 0) {
+                                if (response.counts) {
+                                    updateFilteredSummaries(response.counts);
+                                }
+                            } else {
+                                if (response.counts) {
+                                    updateMainSummaries(response.counts);
+                                }
+                            }
+                            updateTable(response.data || []);
+                        } else {
+                            console.error('API Error:', response.error);
+                            handleError('Error loading data: ' + (response.error || 'Unknown error'));
+                        }
+                    })
+                    .fail(function(xhr) {
+                        console.error('Request failed:', xhr);
+                        handleError('Failed to load data. Please check your connection.');
+                    })
+                    .always(function() {
+                        showLoading(false);
+                    });
+            }
+
+            function updateTable(data) {
+                if (!data || data.length === 0) {
+                    loadingMsg.textContent = 'No data available for the selected filters.';
+                    loadingMsg.style.display = 'block';
+                    table.style.display = 'none';
+                    updateMainSummaries({ total_records: 0, opd_count: 0, ipd_count: 0, surgery_suggested: 0, diagnostic_suggested: 0, surgery_not_suggested: 0 });
+                    document.querySelector('.filtered-results-container').classList.add('hidden');
+                    return;
+                }
+                table.style.display = 'table';
+                const thead = table.querySelector('thead');
+                const tbody = table.querySelector('tbody');
+                thead.innerHTML = '';
+                tbody.innerHTML = '';
+                const headers = Object.keys(data[0]).filter(header => !columnsToHide.includes(header.toLowerCase().trim()));
+                const headerRow = document.createElement('tr');
+                headers.forEach(header => {
+                    const th = document.createElement('th');
+                    th.className = 'px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider';
+                    th.textContent = header;
+                    headerRow.appendChild(th);
+                });
+                thead.appendChild(headerRow);
+                data.forEach(rowData => {
+                    const row = document.createElement('tr');
+                    headers.forEach(header => {
+                        const cell = document.createElement('td');
+                        cell.className = 'px-6 py-4 whitespace-nowrap text-sm text-gray-500';
+                        cell.textContent = rowData[header] ?? '';
+                        row.appendChild(cell);
+                    });
+                    tbody.appendChild(row);
+                });
+            }
+
+            // --- Event Handlers ---
+            function handleTimePeriodChange() {
+                const isCustom = timePeriodSelect.value === 'custom';
+                customDateContainer.classList.toggle('hidden', !isCustom);
+            }
+
+            async function handleFieldChange() {
+                const selectedField = fieldSelect.value;
+                fieldInput.classList.add('hidden');
+                Object.values(dropdowns).forEach(d => d.classList.add('hidden'));
+
+                if (selectedField in dropdowns) {
+                    const dropdown = dropdowns[selectedField];
+                    dropdown.classList.remove('hidden');
+                    // Always re-fetch for BD to ensure the 'ALL BD' option is present.
+                    if (dropdown.options.length <= 1 || selectedField === 'bd') {
+                        dropdown.innerHTML = '<option value="">Loading...</option>';
+                        try {
+                            const response = await fetch(`/api/unique/${selectedField}`);
+                            if (!response.ok) throw new Error('Network response was not ok');
+                            const names = await response.json();
+                            
+                            dropdown.innerHTML = `<option value="">Select ${selectedField}</option>`;
+                            
+                            if (selectedField === 'bd') {
+                                dropdown.add(new Option('ALL BD', 'all_bd'));
+                            }
+
+                            names.forEach(name => { dropdown.add(new Option(name, name)); });
+                        } catch (error) {
+                            console.error(`Error fetching ${selectedField} names:`, error);
+                            dropdown.innerHTML = '<option value="">Error</option>';
+                        }
+                    }
+                } else if (selectedField === 'other') {
+                    fieldInput.classList.remove('hidden');
+                }
+            }
+
+            // --- Main Filter Function ---
+            function applyFilter(isInitialLoad = false) {
+                showLoading(true);
+                
+                const params = new URLSearchParams();
+                const timePeriod = timePeriodSelect.value;
+                
+                if (timePeriod === 'custom') {
+                    if (!startDateInput.value || !endDateInput.value) {
+                        if (!isInitialLoad) showToast('Please select a start and end date.', 'error');
+                        showLoading(false);
+                        return;
+                    }
+                    params.append('start', startDateInput.value);
+                    params.append('end', endDateInput.value);
+                } else if (timePeriod) {
+                    params.append('type', timePeriod);
+                }
+
+                const field = fieldSelect.value;
+                if (field && field !== 'other') {
+                    const value = dropdowns[field].value;
+                    if (value) {
+                        params.append('field', field);
+                        params.append('q', value);
+                    }
+                } else if (field === 'other' && fieldInput.value.trim()) {
+                    const text = fieldInput.value.trim();
+                    const parts = text.split(':');
+                    if (parts.length === 2 && parts[0].trim() && parts[1].trim()) {
+                        params.append('field', parts[0].trim());
+                        params.append('q', parts[1].trim());
+                    } else if (!isInitialLoad && text) {
+                        showToast('For "Other" filter, please use format: ColumnName:Value', 'warning');
+                    }
+                }
+
+                // Load data with the constructed parameters
+                loadData(Object.fromEntries(params));
+            }
+
+            // --- Initial Setup ---
+            timePeriodSelect.addEventListener('change', handleTimePeriodChange);
+            fieldSelect.addEventListener('change', handleFieldChange);
+            applyFilterBtn.addEventListener('click', () => applyFilter(false));
+
+            handleTimePeriodChange(); // Set initial state for date pickers
+            applyFilter(true); // Initial data load for the table and summaries
+        });
+    </script>
+</body>
+</html>
